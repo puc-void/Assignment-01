@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    max-width: 1600px;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    font-size: 16px;
+}
+
+.btn{
+  color: white;
+  width: 164px;
+  height: 44px;
+  background-color: #30B868;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
