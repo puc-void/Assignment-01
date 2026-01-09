@@ -5,7 +5,7 @@
 }
 
 
-.inter-sans {
+.inter-sans{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
@@ -26,7 +26,7 @@ nav .menu{
 nav .menu a{
     text-decoration: none;
     font-size: 20px;
-    color: red;
+    color: black;
     font-size: 16px;
 }
 .banner-content .green{
@@ -72,7 +72,8 @@ nav .menu a{
   text-align:center;
   margin: 0 auto;
   line-height: 25px; 
-  padding: 20px 20px;
+  padding-top: 16px;
+  padding-bottom: 32px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -80,6 +81,9 @@ nav .menu a{
 .banner-content h1{
   font-size: 65px;
   color: white;
+  line-height: 70px;;
+  padding-top: 16px;
+  font-weight: 700;
 
 }
 .banner-content .head-btn{
@@ -94,6 +98,60 @@ color:  rgba(70, 145, 101, 1);
 #banner .banner-content{
   padding-top: 100px;
   text-align: center;
-
-
 }
+#heading{
+  text-align: center;
+}
+#heading h3{
+  font-size: 48px;
+  padding-top: 50px;
+  text-transform: capitalize;
+}
+#heading article{
+  font-size: 16px;
+  color:rgba(98, 115, 130, 1);
+  padding-top: 16px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+}
+#card{
+  padding-top : 44px;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 44px 100px;
+}
+#card .card-content{
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding :30px;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#card .card-title p{
+  font-size: 16px;
+  color:#627382;
+  line-height: 24px;
+  padding-top: 16px;
+}
+#card .card-title h4{
+  font-size: 24px;
+  padding-top: 20px;
+}
+.card-content .card-image{
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding-top:10px;
+}
+
+
